@@ -1,10 +1,10 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
+import { Link } from 'react-router-dom';
 
 export default function Auth() {
     return (
         <div>
-            <NavBar/>
             <div className='main_container'>
                 Auth
             <div className='beige_container'>
@@ -20,7 +20,7 @@ export default function Auth() {
                         <div></div>
                         <div></div>
                         <button>Register</button>
-                        <a href={process.env.REACT_APP_LOGIN}><button>Login</button></a>
+                        <Link to='/browsing'><button>Login</button></Link>
                     </div>
 
                 </div>
