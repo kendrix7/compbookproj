@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Auth from './Views/Auth';
-import AddBook from './Views/AddBook';
-import BookDetails from './Views/BookDetails';
-import Bookshelf from './Views/Bookshelf';
-import Browsing from './Views/Browsing';
-import Cart from './Views/Cart';
-import EditBook from './Views/EditBook';
+import Auth from './views/Auth';
+import AddBook from './views/AddBook';
+import BookDetails from './views/BookDetails';
+import Bookshelf from './views/Bookshelf';
+import Browsing from './views/Browsing';
+import Cart from './views/Cart';
+import EditBook from './views/EditBook';
 
 
 export default (
